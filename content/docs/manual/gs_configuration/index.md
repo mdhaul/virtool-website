@@ -225,6 +225,38 @@ The name of the MongoDB database to use once connected to the server.
 
 Run the server in development mode
 
+{{< option force-version >}}
+
+Force the instance to think it is the passed version.
+
+{{< option no-db-checks >}}
+
+Do not run database checks on start.
+
+{{< option no-file-manager >}}
+
+Do not initialize the file manager on start.
+
+{{< option no-job-manager >}}
+
+Do not initialize the job manager on start.
+
+{{< option no-refreshing >}}
+
+Do not automatically check for remote resources.
+
+{{< option no-sentry >}}
+
+Do not initialize Sentry on start.
+
+{{< option no-setup >}}
+
+Do not enter first-time setup on start.
+
+{{< option verbose >}}
+
+Log debug messages.
+
 ## Examples
 
 ### CLI
